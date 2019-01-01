@@ -3,6 +3,15 @@ An interview problem for Columbia Sportswear of Portland OR
 
 
 The program weatherget.py will download about 100 current Pacific Northwest weather readings from openweather.org.
+
+
+
+
+The station list is in the directory **resources**.
+
+The program was developed using Python 3.6.1 on my trusty 2013 Macbook Pro,
+so you'll need Python on your system to run it. It needs the nonstandard module**requests** added by **pip** or direct download ...
+
 To use this you need an environment variable:
 
 **API_KEY**
@@ -13,8 +22,6 @@ Store it like this:
 
     export API_KEY=my_api_key
     
-
- 
  Then to run (on Linux or Macintosh):
  
      while true
